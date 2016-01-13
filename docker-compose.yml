@@ -1,5 +1,5 @@
 varnish:
-  image: eeacms/varnish
+    image: eeacms/varnish:4s
   ports:
   - "80:6081"
   links:
